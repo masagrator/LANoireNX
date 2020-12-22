@@ -36,13 +36,13 @@ For extracting and patching wad + atb files I have modified 010 scripts from kra
 * .chunk.nx.txt file will be generated in the same folder as .chunk.nx
 
 If you want to extract different language change 0 from at lines 83 and 92 "k==0" to
-0 - English
-1 - French
-2 - German
-3 - Italian
-4 - Japanese
-5 - Russian
-6 - Spanish
+* 0 - English
+* 1 - French
+* 2 - German
+* 3 - Italian
+* 4 - Japanese
+* 5 - Russian
+* 6 - Spanish
 
 > cases-atb-pack.1sc (it works with DLC files too):
 * Load this script to 010 editor
@@ -51,13 +51,13 @@ If you want to extract different language change 0 from at lines 83 and 92 "k==0
 * .chunk.nx file in the same folder will be patched with data from .chunk.nx.tx
 
 If you want to replace different language change 0 from at lines 83 and 103 "k==0" to
-0 - English
-1 - French
-2 - German
-3 - Italian
-4 - Japanese
-5 - Russian
-6 - Spanish
+* 0 - English
+* 1 - French
+* 2 - German
+* 3 - Italian
+* 4 - Japanese
+* 5 - Russian
+* 6 - Spanish
 
 If 010 editor exits at some other language than English when importing data from txt files, try to open this txt file with Notepad++, convert EOL from Windows to Linux and go back to Windows from Linux, then save. If still exits, try to delete last 2 empty lines in Notepad++ and put one empty line by pressing enter at the end of file, then save.
 
@@ -81,27 +81,27 @@ If 010 editor exits at some other language than English when importing data from
 * root.atb.nx.txt file will be generated in the same folder as root.atb.nx[/list]
 
 If you want to extract different language change 0 from at lines 83 and 92 "k==0" to
-0 - English
-1 - French
-2 - German
-3 - Italian
-4 - Japanese
-5 - Russian
-6 - Spanish
+* 0 - English
+* 1 - French
+* 2 - German
+* 3 - Italian
+* 4 - Japanese
+* 5 - Russian
+* 6 - Spanish
 
-- root-atb-pack.1sc:
+> root-atb-pack.1sc:
 * Load this script to 010 editor
 * Press F7
 * Select root.atb.nx.txt file that is in C:/LANOIRE/out/attribute
 * root.atb.nx file that is in the same folder will be patched with data from root.atb.nx.txt[/list]
 
 If you want to replace different language change 0 from at lines 83 and 103 "k==0" to
-0 - English
-1 - French
-2 - German
-3 - Italian
-4 - Japanese
-5 - Russian
-6 - Spanish
+* 0 - English
+* 1 - French
+* 2 - German
+* 3 - Italian
+* 4 - Japanese
+* 5 - Russian
+* 6 - Spanish
 
 BTW. thanks for 0 help from kramla because spending 15 minutes on explaining scripts seems too difficult for him.
