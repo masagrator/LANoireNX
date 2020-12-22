@@ -72,13 +72,13 @@ If 010 editor exits at some other language than English when importing data from
 * Put original `out.wad.nx` to `C:/LANOIRE`
 * Load `out-wad-unpack.1sc` to 010 editor
 * Press F7
-* Files from `C:/LANOIRE/out` will be imported to out.wad.nx in `C:/LANOIRE`[/list]
+* Files from `C:/LANOIRE/out` will be imported to out.wad.nx in `C:/LANOIRE`
 
 > root-atb-unpack.1sc:
 * Load this script to 010 editor
 * Press F7
 * Select `root.atb.nx` file that is in `C:/LANOIRE/out/attribute`
-* `root.atb.nx.txt` file will be generated in the same folder as `root.atb.nx`[/list]
+* `root.atb.nx.txt` file will be generated in the same folder as `root.atb.nx`
 
 If you want to extract different language change 0 from at lines 83 and 92 `k==0` to
 * `0`- English
@@ -93,7 +93,7 @@ If you want to extract different language change 0 from at lines 83 and 92 `k==0
 * Load this script to 010 editor
 * Press F7
 * Select `root.atb.nx.txt` file that is in `C:/LANOIRE/out/attribute`
-* `root.atb.nx` file that is in the same folder will be patched with data from `root.atb.nx.txt`[/list]
+* `root.atb.nx` file that is in the same folder will be patched with data from `root.atb.nx.txt`
 
 If you want to replace different language change 0 from at lines 83 and 103 `k==0` to
 * `0`- English
