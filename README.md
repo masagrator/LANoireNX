@@ -1,5 +1,5 @@
 # LANoireNX
-LA Noire scripts used for porting translation mod from PC
+LA Noire scripts used for repacking files from Switch version
 
 - Python scripts are designed around Python 2, didn't test for Python 3. You need "numpy" for Python installed
 - It is advised to not use cmd on Windows for python scripts. Use bash from WSL to unpack/pack correctly all big.nx files + unlock long paths in regedit/gpedit
