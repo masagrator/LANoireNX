@@ -29,11 +29,11 @@ Because different big.nx files are using different page aligning, packing origin
 
 For extracting and patching wad + atb files I have modified 010 scripts from kramla's LANOIRE-TOOLS
 # USAGE
-- cases-atb-unpack.1sc (it works with DLC files too):
-> Load this script to 010 editor
-> Press F7
-> Select .chunk.nx files in attribute folder for any unpacked .big.nx archive
-> .chunk.nx.txt file will be generated in the same folder as .chunk.nx
+> cases-atb-unpack.1sc (it works with DLC files too):
+* Load this script to 010 editor
+* Press F7
+* Select .chunk.nx files in attribute folder for any unpacked .big.nx archive
+* .chunk.nx.txt file will be generated in the same folder as .chunk.nx
 
 If you want to extract different language change 0 from at lines 83 and 92 "k==0" to
 0 - English
@@ -44,7 +44,7 @@ If you want to extract different language change 0 from at lines 83 and 92 "k==0
 5 - Russian
 6 - Spanish
 
-- cases-atb-pack.1sc (it works with DLC files too):
+> cases-atb-pack.1sc (it works with DLC files too):
 * Load this script to 010 editor
 * Press F7
 * Select chunx.nx.txt files in attribute folder for any unpacked .big.nx archive
@@ -61,20 +61,20 @@ If you want to replace different language change 0 from at lines 83 and 103 "k==
 
 If 010 editor exits at some other language than English when importing data from txt files, try to open this txt file with Notepad++, convert EOL from Windows to Linux and go back to Windows from Linux, then save. If still exits, try to delete last 2 empty lines in Notepad++ and put one empty line by pressing enter at the end of file, then save.
 
-- out-wad-unpack.1sc:
+> out-wad-unpack.1sc:
 * Load out.wad.nx to 010 Editor
 * Load out-wad-unpack.1sc to 010 editor
 * Focus 010 Editor on out.wad.nx and press F7
 * If list of scripts will be showed to choose, choose and run out-wad-unpack.1sc
 * Files will be extracted to C:/LANOIRE/out
 
-- out-wad-importer.1sc
+> out-wad-importer.1sc
 * Put original out.wad.nx to C:/LANOIRE
 * Load out-wad-unpack.1sc to 010 editor
 * Press F7
 * Files from C:/LANOIRE/out will be imported to out.wad.nx in C:/LANOIRE[/list]
 
-- root-atb-unpack.1sc:
+> root-atb-unpack.1sc:
 * Load this script to 010 editor
 * Press F7
 * Select root.atb.nx file that is in C:/LANOIRE/out/attribute
